@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Cyber Crimes Police Station",
+    "address": "5-10-196, LB Stadium Rd, Band Colony, Adarsh Nagar, Hyderabad, Telangana 500004",
+    "location":"https://www.google.com/maps/place/CriticalRiver+Technologies+Pvt+Ltd/@17.4288816,78.3715731,14z/data=!4m20!1m13!4m12!1m4!2m2!1d78.3927881!2d17.4272858!4e1!1m6!1m2!1s0x3bcb916718d39ae7:0xfbb1a626f77f4ec4!2scritical+river+technologies!2m2!1d78.3785089!2d17.4391146!3m5!1s0x3bcb916718d39ae7:0xfbb1a626f77f4ec4!8m2!3d17.4391146!4d78.3785089!16s%2Fg%2F11c6dclxm5?entry=ttu",
+    "lat":17.4368828,
+    "lang":78.4265093
+  },
+  {
+    "name": "CYBER CRIME POLICE STATION CYBERABAD",
+    "address": "C9JC+923, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032",
+    "lat":17.436884,
+    "lang":78.4265315
+  },
+  {
+    "name": "Cyber Crimes Police Station",
+    "address": "5-10-196, LB Stadium Rd, Band Colony, Adarsh Nagar, Hyderabad, Telangana 500004",
+    "lat":17.5372461,
+    "lang":78.4062029
+  },
+  {
+    "name": "Cyber Crimes Police Station",
+    "address": "5-10-196, LB Stadium Rd, Band Colony, Adarsh Nagar, Hyderabad, Telangana 500004",
+    "lat":17.4302116,
+    "lang":78.450443
+  }
+]
