@@ -19,14 +19,19 @@ class AppBarWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Expanded(
-              child: Text(
-                data.title,
-                style: GoogleFonts.roboto(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 35,
-                  letterSpacing: 4.1,
-                  height: 1,
+              child: GestureDetector(
+                onTap: () {
+                Navigator.maybePop(context);
+              },
+                child: Text(
+                  data.title,
+                  style: GoogleFonts.roboto(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 28,
+                    letterSpacing: 4.1,
+                    height: 1,
+                  ),
                 ),
               ),
             ),

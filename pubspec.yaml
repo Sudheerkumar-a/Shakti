@@ -87,7 +87,7 @@ flutter:
      - assets/data/about.json
      - assets/data/cyberbullying.json
      - assets/data/social_media_hacking.json
-     - assets/data/backmail.json
+     - assets/data/blackmail.json
      - assets/data/stalking.json
      - assets/data/audios.json
      - assets/data/police_stations.json

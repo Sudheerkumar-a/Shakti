@@ -1,22 +1,45 @@
-[
+[{
+  "title": "What is stalking?",
+  "description": "Stalking is a pattern of repeated and unwanted attention, harassment, contact, or any other course of conduct directed at a specific person that would cause a reasonable person to feel fear. Stalking behaviours are related to harassment and intimidation and may include following the victim in person or monitoring them."
+},
   {
-    "title": "The story behind our logo",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "How to know if somebody is stalking you",
+    "description": "Sign 1: Lurking around your workplace or neighbourhood\nSign 2: Watching you\nSign 3: Repeated Phone Calls\nSign 4: Giving Inappropriate gifts\nSign 5: Manipulating you into interacting with them\nSign 6: Using the Internet to harass you\nSign 7: Acting violently or threatening you\nSign 8: Too much unwanted contact\nSign 9: Taking photographs without consent\nSign 10: Spreading rumors"
   },
   {
-    "title": "The importance of our colour platte",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "What counts as 'illegal'?",
+    "description": "According to Section 354 D of the Indian Penal Code, stalking means and includes:\n\n(1) Any man who-\n\n(i) follows a woman and contacts or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman; or\n\n(ii) monitors the use by a woman of the internet, email, or any other form of electronic communication, commits the offence of stalking:\n\nProvided that such conduct shall not amount to stalking if the man who pursued it proves that—\n\n(i) it was pursued for the purpose of preventing or detecting crime, and the man accused of stalking had been entrusted with the responsibility of prevention and detection of crime by the State; or\n\n(ii) it was pursued under any law or to comply with any condition or requirement imposed by any person under any law; or\n\n(iii) In the particular circumstances, such conduct was reasonable and justified.\n\n(2) Whoever commits the offence of stalking shall be punished on first conviction with imprisonment of either description for a term.\n\nwhich may extend to three years and shall also be liable to a fine;\n\nand be punished on a second or subsequent conviction with imprisonment of either description for a term which may extend to five years, and shall also be liable to a fine."
   },
   {
-    "title": "What does Shakti means",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "What to do is somebody is stalking you?",
+    "description": "If the stalking is becoming extreme to the point where you feel that you have no way of protecting yourself or stopping the bullying, then you can contact the cybercrime department via email or go to the cybercrime department to file a complaint. You can also file a complaint on the cybercrime portal. https://cybercrime.gov.in/ However, if you want an immediate response, it is recommended to go to the cybercrime department, where the process takes approximately an hour. It is also important to inform your family and friends about the incident so that they can help you with the situation as well."
   },
   {
-    "title": "What is Shakti ?",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "What to do if stalking is not “illegal”?",
+    "description": "Stalking can be booked under Sections 509 and 345 of the IPC. Even though there is no penal section under the IT Act, the police can take action according to the situation under the IPC."
   },
   {
-    "title": "The aim of Shakti",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "Legal measures",
+    "description": "-Contact the cyber crime department\n-Seek A Protection Order which is a court order intended to keep the stalker away from the victim by making it illegal for the stalker to have contact with the victim."
+  },
+  {
+    "title": "Safety measures you should be taking",
+    "description": "- Do not accept an unknown request.\n- Do not engage in a conversation with unknown users who offer you money or gifts.\n- Do not engage in a conversation with an unknown user.\n- Never share your credentials with anybody even if it is a friend because they can use your pictures, videos or texts against you.\n- Raise  awareness by informing the people around you about stalking.\n- Do not share information which is personal."
+  },
+  {
+    "title": "How to file a police complaint for stalking",
+    "description": "Steps to take:\n1. Go to the nearest cybercrime police station.\n2. Fill the petition at the reception.\n3. File a complaint.\n4. If required you will have to file a FIR.\n5. After the following requirements are completed, the investigation takes place.\n\nComplaint is filled by you when you go to the police station. The entire process takes an hour. If the suspect is guilty they can be charged or fined."
+  },
+  {
+    "title": "Who to contact",
+    "description": "Call the helpline 1930. You will be asked general questions.\nYou can contact the cybercrime department via email."
+  },
+  {
+    "title": "Helpline",
+    "description": "National police helpline number is 112. National women helpline number is 181 and Cyber Crime Helpline is 1930."
+  },
+  {
+    "title": "Outside police help (NGOs)",
+    "description": ""
   }
 ]

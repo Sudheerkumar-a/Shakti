@@ -38,7 +38,7 @@ class SplashScreen extends StatelessWidget {
                 fit: BoxFit.fill,
               ),
               Text(
-                "SAKTHI",
+                "SHAKTI",
                 style: GoogleFonts.roboto(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,

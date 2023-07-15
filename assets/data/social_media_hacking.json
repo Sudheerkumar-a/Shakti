@@ -1,22 +1,38 @@
 [
   {
-    "title": "The story behind our logo",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "What is hacking?",
+    "description": "Hacking is the act of identifying and then exploiting weaknesses in a computer system or network, usually to gain unauthorised access to personal or organisational data. Hacking is usually done by targeting people using email and website scams or malware, software that can damage your device or let a hacker in. When an account is hacked, it can be serious because the hackers can have access to your money and personal information, and you could become a victim of identity theft or fraud. Identity theft occurs when your personal details are stolen, and identity fraud occurs when those details are used to commit fraud."
   },
   {
-    "title": "The importance of our colour platte",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "Target areas",
+    "description": "Popular apps to get hacked on are instagram, gmail (account hacking), facebook, whatsapp (unknown calls), youtube (videos) and twitter."
   },
   {
-    "title": "What does Shakti means",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "Signs that your account has been hacked",
+    "description": "Sign one: Password reset emails - If you receive an email for a password reset that you did not request then you might be hacked. You may also get an email saying that an unknown device has logged into your account.\nSign two: Contacts receiving fake email or messages - If your contacts inform you that they have been receiving emails or messages from you but you haven’t sent them anything that you are aware about, it means that you might be hacked."
   },
   {
-    "title": "What is Shakti ?",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "Actions you should be taking",
+    "description": "If you get hacked and have no way of protecting yourself then it is recommended to reach out to the cyber crime department. You can also file the complaint on the cyber crime portal. https://cybercrime.gov.in/ However, if you want an immediate response it is recommended to go to the cyber crime department where the process takes approximately an hour.\nSteps to take \n1.Go to the nearest cybercrime police station\n2.Fill the petition at the reception\n3.File a complaint\n4.If required you will have to file a FIR\n5.After the following requirements are completed, the investigation takes place\n\nComplaint is filled by you when you go to the police station. The entire process takes an hour. If the suspect is guilty they can be charged or fined.\n\nIf somebody gets hacked on social media, such as instagram or twitter, and videos or pictures are being posted then the cybercrime department will put a notice on instagram to remove the content. The department will get the IPS and use it to trace the person.\n\nDelete your account as soon as possible if you have the password. Change the password for your account as well as the social media accounts that have the same password. Once you delete the account, you can use the same phone number for the new account. Let all your friends know that you have been hacked on a particular social media platform so that they do not have any interaction with the hacker."
   },
   {
-    "title": "The aim of Shakti",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    "title": "How to gather evidence",
+    "description": "You can submit one screenshot that shows proof of your claim. One is enough but it is better to give more if you have "
+  },
+  {
+   "title": "Safety measures you should be taking",
+    "description": "-You must always have a secure password for any social media account that you make because the stronger the password, the tougher it is to hack the account.\n-Do not click unknown links. The links can be sent through messages.\n-Never share your credentials with anybody even if it is a friend.\n-Do not accept an unknown request.\n-It is not recommended to use the same password that you use on instagram to be used for facebook because if your instagram is hacked then the hacker knows the password and can use it to log in to your facebook account.\n-Do not engage in a conversation with unknown users who offer you money or gift.\n-Never share your credentials with anybody even if it is a friend because they can use your pictures, videos or texts against you.\n-Raise  awareness by informing the people around you about cyberbullying.\n\nBelow are a few examples of how people have gotten hacked on instagram through instagram dms:"
+  },
+  {
+    "title": "Procedures for apps:",
+    "description": "1. Gmail:\nSigns that you are hacked: You get a notification saying that another device (with the location given) has logged into your account.\n\nGmail credentials can be sent to anybody by the hacker which is why you must inform the cybercrime department if you are unable to log in to your account. The department puts a notice and gives a recovery number and email ID.\n\nSafety measures: In the case of gmail it is recommended to have strong passwords and logout of the gmail account on any device once it is hacked.\n\n2. Facebook:\nSigns:The most common form of hacking on facebook are fake profiles. You can also be hacked through unknown links or messages.\nAction taken: If a person posts only a post then it would be deleted and not the whole account. If there is a fake profile then the entire profile would be deleted.\n3. Whatsapp:\nSigns: Whatsapp includes fake profiles using display pictures and you can be hacked through unknown calls or messages.\n\n4. Youtube:\nSigns: In youtube there can be copyright or stealing content.\n\nMost apps have the same procedure of filing the complaint at the cyber crime department and the safety measures and gathering of evidence are very similar."
+  },
+  {
+    "title": "Who to contact?",
+    "description": "Call the helpline 1930. You will be asked questions (general questions about your account).\nYou can contact the cybercrime department via email."
+  },
+  {
+    "title": "Helpline",
+    "description": "National police helpline number is 112. National women helpline number is 181 and Cyber Crime Helpline is 1930."
   }
 ]

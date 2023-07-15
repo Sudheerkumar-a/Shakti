@@ -45,12 +45,14 @@ class _InfoListItemSate extends State<InfoListItem> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  widget.data.title ?? '',
-                  style: GoogleFonts.roboto(
-                    color: const Color.fromARGB(255, 0, 0, 0),
-                    fontWeight: FontWeight.normal,
-                    fontSize: 16,
+                Expanded(
+                  child: Text(
+                    widget.data.title ?? '',
+                    style: GoogleFonts.roboto(
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      fontWeight: FontWeight.normal,
+                      fontSize: 16,
+                    ),
                   ),
                 ),
                 Icon(isSelected

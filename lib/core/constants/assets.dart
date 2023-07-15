@@ -16,7 +16,7 @@ class Assets {
   static const aboutJSon = '${dataPath}about.json';
   static const cyberbullyingJSon = '${dataPath}cyberbullying.json';
   static const socialMediaHackingJSon = '${dataPath}social_media_hacking.json';
-  static const backmailJSon = '${dataPath}backmail.json';
+  static const backmailJSon = '${dataPath}blackmail.json';
   static const stalkingJSon = '${dataPath}stalking.json';
   static const audiosJSon = '${dataPath}audios.json';
   static const policeStationsJSon = '${dataPath}police_stations.json';
