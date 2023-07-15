@@ -2,8 +2,53 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:map_launcher/map_launcher.dart';
-
+Future<void> openMapsSheet(BuildContext context, String title, double lat, double lang) async {
+    try {
+     final availableMaps = await MapLauncher.installedMaps;
+     if(availableMaps.length>1){
+     if(context.mounted) {
+       showModalBottomSheet(
+        context: context,
+        builder: (BuildContext context) {
+          return SafeArea(
+            child: SingleChildScrollView(
+              child: Wrap(
+                children: <Widget>[
+                  for (var map in availableMaps)
+                    Container(
+                      padding: const EdgeInsets.only(top: 15),
+                      child: ListTile(
+                        onTap: () => map.showMarker(
+                          coords: Coords(lat, lang),
+                          title: title,
+                        ),
+                        title: Text(map.mapName),
+                        leading: SvgPicture.asset(
+                          map.icon,
+                          height: 30.0,
+                          width: 30.0,
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          );
+        },
+      );
+     }
+    }else{
+      await availableMaps.first.showMarker(
+    coords: Coords(lat, lang),
+    title: title,
+  );
+    }
+    } catch (e) {
+      print(e);
+    }
+  }
 Future<void> launchMapUrl(
     BuildContext context, String title, double lat, double long) async {
   final availableMaps = await MapLauncher.installedMaps;

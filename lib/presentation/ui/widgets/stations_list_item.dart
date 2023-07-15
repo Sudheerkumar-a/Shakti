@@ -56,7 +56,7 @@ class StationsListItem extends StatelessWidget {
           ),
           IconButton(
             onPressed: () async {
-              launchMapUrl(
+              openMapsSheet(
                   context, data.name ?? '', data.lat ?? 0, data.lang ?? 0);
             },
             icon: const Icon(Icons.directions),
