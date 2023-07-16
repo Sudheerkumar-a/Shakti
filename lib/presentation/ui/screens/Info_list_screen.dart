@@ -15,19 +15,19 @@ class InfoListScreen extends StatelessWidget {
 
   AppBarData _getAppBarData(String path) {
     if (path == Assets.cyberbullyingJSon) {
-      return AppBarData('CYBERBULLING', '', '222',
+      return AppBarData('CYBERBULLING', '', '333',
           'Face life with strength - you are on the right path');
     } else if (path == Assets.socialMediaHackingJSon) {
-      return AppBarData('Social Media Hacking', '', '111',
+      return AppBarData('SOCIAL MEDIA HACKING', '', '333',
           'Face life with strength - you are on the right path');
     } else if (path == Assets.backmailJSon) {
-      return AppBarData('BLACKMAIL', '', '111',
+      return AppBarData('BLACKMAIL', '', '333',
           'Face life with strength - you are on the right path');
     } else if (path == Assets.stalkingJSon) {
-      return AppBarData('STALKING', '', '111',
+      return AppBarData('STALKING', '', '333',
           'Face life with strength - you are on the right path');
     } else {
-      return AppBarData('ABOUT US', '', '111', 'Let everything come together');
+      return AppBarData('ABOUT US', '', '333', 'Let everything come together');
     }
   }
 
