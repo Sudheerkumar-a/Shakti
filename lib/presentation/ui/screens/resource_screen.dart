@@ -154,6 +154,72 @@ class ResourceScreen extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(
+            height: 20,
+          ),
+          GestureDetector(
+            onTap: () {
+              Navigator.of(context, rootNavigator: false).pushNamed(
+                  InfoListScreen.route,
+                  arguments: Assets.revengePornJSon);
+            },
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+              decoration: BoxDecoration(
+                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'REVENGE PORN',
+                    style: GoogleFonts.roboto(
+                        color: const Color.fromARGB(255, 0, 0, 0),
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600),
+                  ),
+                  SvgPicture.asset(
+                    Assets.stalking,
+                    width: FORTY.toDouble(),
+                    height: FORTY.toDouble(),
+                    fit: BoxFit.fill,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          GestureDetector(
+            onTap: () {
+              Navigator.of(context, rootNavigator: false).pushNamed(
+                  InfoListScreen.route,
+                  arguments: Assets.scamAndFraudJson);
+            },
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+              decoration: BoxDecoration(
+                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'SCAM AND FRAUD',
+                    style: GoogleFonts.roboto(
+                        color: const Color.fromARGB(255, 0, 0, 0),
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600),
+                  ),
+                  SvgPicture.asset(
+                    Assets.stalking,
+                    width: FORTY.toDouble(),
+                    height: FORTY.toDouble(),
+                    fit: BoxFit.fill,
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );

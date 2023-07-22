@@ -18,6 +18,8 @@ class Assets {
   static const socialMediaHackingJSon = '${dataPath}social_media_hacking.json';
   static const backmailJSon = '${dataPath}blackmail.json';
   static const stalkingJSon = '${dataPath}stalking.json';
+  static const revengePornJSon = '${dataPath}revenge_porn.json';
+  static const scamAndFraudJson = '${dataPath}scam_and_fraud.json';
   static const audiosJSon = '${dataPath}audios.json';
   static const policeStationsJSon = '${dataPath}police_stations.json';
 }
