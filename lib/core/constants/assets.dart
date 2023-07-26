@@ -9,7 +9,10 @@ class Assets {
   static const cyberBullying = '${imagesPath}cyber-bullying.svg';
   static const profile = '${imagesPath}profile.svg';
   static const socialMediaHacking = '${imagesPath}social-media-hacking.svg';
-  static const stalking = '${imagesPath}stalking.svg';
+  static const stalking = '${imagesPath}stalking.svg';  
+  static const revengePorn = '${imagesPath}revenge_porn.png';
+  static const scamAndFraud = '${imagesPath}fraud.png';
+
 
   //local data
   static const dataPath = '${path}data/';

@@ -83,6 +83,8 @@ flutter:
      - assets/images/profile.svg
      - assets/images/social-media-hacking.svg
      - assets/images/stalking.svg
+     - assets/images/revenge_porn.png
+     - assets/images/fraud.png
   #json data
      - assets/data/about.json
      - assets/data/cyberbullying.json

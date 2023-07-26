@@ -26,6 +26,12 @@ class InfoListScreen extends StatelessWidget {
     } else if (path == Assets.stalkingJSon) {
       return AppBarData('STALKING', '', '333',
           'Face life with strength - you are on the right path');
+    }else if (path == Assets.revengePornJSon) {
+      return AppBarData('REVENGE PORN', '', '333',
+          'Face life with strength - you are on the right path');
+    }else if (path == Assets.socialMediaHackingJSon) {
+      return AppBarData('SCAM AND FRAUD', '', '333',
+          'Face life with strength - you are on the right path');
     } else {
       return AppBarData('ABOUT US', '', '333', 'Let everything come together');
     }
