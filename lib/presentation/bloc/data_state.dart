@@ -36,6 +36,14 @@ class StationsLoadedWithSuccess extends DataState {
   List<Object?> get props => [stationsList];
 }
 
+class McqsLoadedWithSuccess extends DataState {
+  final List<McqEntity> mcqsList;
+
+  McqsLoadedWithSuccess({required this.mcqsList});
+  @override
+  List<Object?> get props => [mcqsList];
+}
+
 class DataLoadedWithError extends DataState {
   final String message;
 

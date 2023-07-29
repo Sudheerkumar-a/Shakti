@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shakti/core/constants/assets.dart';
 import 'package:shakti/presentation/ui/screens/Info_list_screen.dart';
+import 'package:shakti/presentation/ui/screens/mcq_screen.dart';
 import 'package:shakti/presentation/ui/screens/navigator_screen.dart';
 import 'package:shakti/presentation/ui/screens/audio_list_screen.dart';
 import 'package:shakti/presentation/ui/screens/resource_screen.dart';
@@ -21,7 +22,7 @@ class _HomeState extends State<HomeScreen> {
   int backpressCount = 0;
   final _screens = <Widget>[
     const NavigatorScreen(),
-    AudioListScreen(),
+    McqsScreen(),
     StationsListScreen(),
     InfoListScreen(
       dataJsonPath: Assets.aboutJSon,
@@ -86,7 +87,7 @@ class _HomeState extends State<HomeScreen> {
                       _selectedIndex == 1 ? Colors.pink : Colors.white,
                       BlendMode.srcIn),
                 ),
-                label: 'Home',
+                label: 'PHQ-9',
               ),
               const BottomNavigationBarItem(
                 icon: Icon(Icons.near_me),

@@ -1,5 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:shakti/domain/entities/info_entity.dart';
+import 'package:shakti/domain/entities/mcq_entity.dart';
 import '../../core/failures.dart';
 import '../entities/audio_entity.dart';
 import '../entities/police_station_entity.dart';
@@ -21,5 +22,9 @@ class InfoDataUsecase {
 
   Future<Either<Failure, List<PoliceStationEntity>>> getPoliceStations() async {
     return repository.getPoliceStations();
+  }
+  
+  Future<Either<Failure, List<McqEntity>>> getMcqs() async {
+    return repository.getMcqs();
   }
 }

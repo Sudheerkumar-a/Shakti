@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../core/failures.dart';
 import '../../domain/entities/audio_entity.dart';
 import '../../domain/entities/info_entity.dart';
+import '../../domain/entities/mcq_entity.dart';
 import '../../domain/entities/police_station_entity.dart';
 
 part 'data_event.dart';
@@ -36,6 +37,14 @@ class DataBloc extends Cubit<DataState> {
     final result = await infoDataUsecase.getPoliceStations();
     emit(result.fold((l) => DataLoadedWithError(message: _getErrorMessage(l)),
         (r) => StationsLoadedWithSuccess(stationsList: r)));
+  }
+
+  Future<void> getMcqs() async {
+    emit(DataLoading());
+
+    final result = await infoDataUsecase.getMcqs();
+    emit(result.fold((l) => DataLoadedWithError(message: _getErrorMessage(l)),
+        (r) => McqsLoadedWithSuccess(mcqsList: r)));
   }
 
   String _getErrorMessage(Failure failure) {

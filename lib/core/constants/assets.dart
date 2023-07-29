@@ -25,4 +25,5 @@ class Assets {
   static const scamAndFraudJson = '${dataPath}scam_and_fraud.json';
   static const audiosJSon = '${dataPath}audios.json';
   static const policeStationsJSon = '${dataPath}police_stations.json';
+  static const mcqsJSon = '${dataPath}mcq.json';
 }

@@ -5,6 +5,7 @@ import 'package:shakti/core/constants/assets.dart';
 import 'package:shakti/data/datasource/local_data_source.dart';
 import 'package:shakti/domain/entities/audio_entity.dart';
 import 'package:shakti/domain/entities/info_entity.dart';
+import 'package:shakti/domain/entities/mcq_entity.dart';
 import 'package:shakti/domain/entities/police_station_entity.dart';
 
 import '../../core/failures.dart';
@@ -43,6 +44,17 @@ class ApisRepositoryImpl implements ApisRepository {
       final stations = await localDataSource.getPoliceStationsFromJson(
           path: Assets.policeStationsJSon);
       return Right(stations);
+    } catch (error) {
+      return Left(JsonFailure(message: error.toString()));
+    }
+  }
+
+  @override
+  Future<Either<Failure, List<McqEntity>>> getMcqs() async {
+    try {
+      final mcqs = await localDataSource.getMcqsFromJson(
+          path: Assets.mcqsJSon);
+      return Right(mcqs);
     } catch (error) {
       return Left(JsonFailure(message: error.toString()));
     }

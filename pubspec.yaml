@@ -95,6 +95,7 @@ flutter:
      - assets/data/scam_and_fraud.json
      - assets/data/audios.json
      - assets/data/police_stations.json
+     - assets/data/mcq.json
   #audio files
      - audio/just_audio_example_audio_nature.mp3
 
