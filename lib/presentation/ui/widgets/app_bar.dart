@@ -21,8 +21,8 @@ class AppBarWidget extends StatelessWidget {
             Expanded(
               child: GestureDetector(
                 onTap: () {
-                Navigator.maybePop(context);
-              },
+                  Navigator.maybePop(context);
+                },
                 child: Text(
                   data.title,
                   style: GoogleFonts.roboto(
@@ -42,13 +42,13 @@ class AppBarWidget extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.symmetric(vertical: 3, horizontal: 8),
                 decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.secondaryContainer,
+                    color: const Color(0xfffccfe8),
                     borderRadius: BorderRadius.circular(8)),
                 child: Column(
                   children: [
                     Text(data.number,
                         style: Theme.of(context).textTheme.displayLarge),
-                    Text('Support',
+                    Text(data.subTitle,
                         style: Theme.of(context).textTheme.bodySmall),
                   ],
                 ),
@@ -56,12 +56,15 @@ class AppBarWidget extends StatelessWidget {
             ),
           ],
         ),
+        const SizedBox(
+          height: 5,
+        ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Expanded(
               child: Text(
-                data.subTitle,
+                '',
                 style: GoogleFonts.roboto(
                   color: const Color.fromARGB(255, 112, 112, 112),
                   fontWeight: FontWeight.normal,

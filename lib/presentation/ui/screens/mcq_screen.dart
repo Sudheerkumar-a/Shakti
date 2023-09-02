@@ -89,11 +89,8 @@ class McqsScreen extends StatelessWidget {
             margin: const EdgeInsets.all(20),
             child: Column(
               children: [
-                AppBarWidget(AppBarData(
-                    'PHQ-9',
-                    'The pink sphere of safety & support',
-                    '111',
-                    'Lorem ipsum, or lipsum as it is sometimes known')),
+                AppBarWidget(AppBarData('PHQ-9', 'Reflect', '666',
+                    'Take a step back and reflect on your higher purpose')),
                 const SizedBox(
                   height: 42,
                 ),
@@ -181,11 +178,8 @@ class McqsScreen extends StatelessWidget {
               padding: const EdgeInsets.all(20),
               child: Column(
                 children: [
-                  AppBarWidget(AppBarData(
-                      'PHQ-9',
-                      'The pink sphere of safety & support',
-                      '111',
-                      'Lorem ipsum, or lipsum as it is sometimes known')),
+                  AppBarWidget(AppBarData('PHQ-9', 'Reflect', '666',
+                      'Take a step back and reflect on your higher purpose')),
                   const SizedBox(
                     height: 42,
                   ),
@@ -503,7 +497,7 @@ class McqsScreen extends StatelessWidget {
                                             color: _questionIndex.value == 0
                                                 ? const Color.fromARGB(
                                                     255, 233, 231, 231)
-                                                : null,
+                                                : Colors.black,
                                           ),
                                         ),
                                       ),
@@ -535,7 +529,7 @@ class McqsScreen extends StatelessWidget {
                                             color: _questionIndex.value == 8
                                                 ? const Color.fromARGB(
                                                     255, 233, 231, 231)
-                                                : null,
+                                                : Colors.black,
                                           ),
                                         ),
                                       )

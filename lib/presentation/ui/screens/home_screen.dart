@@ -4,8 +4,6 @@ import 'package:shakti/core/constants/assets.dart';
 import 'package:shakti/presentation/ui/screens/Info_list_screen.dart';
 import 'package:shakti/presentation/ui/screens/mcq_screen.dart';
 import 'package:shakti/presentation/ui/screens/navigator_screen.dart';
-import 'package:shakti/presentation/ui/screens/audio_list_screen.dart';
-import 'package:shakti/presentation/ui/screens/resource_screen.dart';
 import 'package:shakti/presentation/ui/screens/stations_list_screen.dart';
 import '../../../core/utils/NavbarNotifier.dart';
 

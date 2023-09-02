@@ -106,11 +106,8 @@ class _StationsListScreenState extends State<StationsListScreen> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            AppBarWidget(AppBarData(
-                'STATIONS',
-                'The pink sphere of safety & support',
-                '198',
-                'Lorem ipsum, or lipsum as it is sometimes known')),
+            AppBarWidget(AppBarData('STATIONS', 'Alignment', '222',
+                'You’re in the right place, at the right time')),
             const SizedBox(
               height: 42,
             ),

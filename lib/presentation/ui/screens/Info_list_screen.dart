@@ -15,25 +15,26 @@ class InfoListScreen extends StatelessWidget {
 
   AppBarData _getAppBarData(String path) {
     if (path == Assets.cyberbullyingJSon) {
-      return AppBarData('CYBERBULLING', '', '333',
+      return AppBarData('CYBERBULLING', 'Protection', '444',
           'Face life with strength - you are on the right path');
     } else if (path == Assets.socialMediaHackingJSon) {
-      return AppBarData('SOCIAL MEDIA HACKING', '', '333',
+      return AppBarData('SOCIAL MEDIA HACKING', 'Protection', '444',
           'Face life with strength - you are on the right path');
     } else if (path == Assets.backmailJSon) {
-      return AppBarData('BLACKMAIL', '', '333',
+      return AppBarData('BLACKMAIL', 'Protection', '444',
           'Face life with strength - you are on the right path');
     } else if (path == Assets.stalkingJSon) {
-      return AppBarData('STALKING', '', '333',
+      return AppBarData('STALKING', 'Protection', '444',
           'Face life with strength - you are on the right path');
-    }else if (path == Assets.revengePornJSon) {
-      return AppBarData('REVENGE PORN', '', '333',
+    } else if (path == Assets.revengePornJSon) {
+      return AppBarData('REVENGE PORN', 'Protection', '444',
           'Face life with strength - you are on the right path');
-    }else if (path == Assets.scamAndFraudJson) {
-      return AppBarData('SCAM AND FRAUD', '', '333',
+    } else if (path == Assets.scamAndFraudJson) {
+      return AppBarData('SCAM AND FRAUD', 'Protection', '444',
           'Face life with strength - you are on the right path');
     } else {
-      return AppBarData('ABOUT US', '', '333', 'Let everything come together');
+      return AppBarData('ABOUT US', 'Support', '333',
+          'Your spiritual guide is with you in equilibrium.');
     }
   }
 

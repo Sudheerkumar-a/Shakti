@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shakti/approutes/app_routes.dart';
 import 'package:shakti/data/datasource/local_data_source.dart';
+import 'core/themes.dart';
 import 'core/utils/pref_utils.dart';
 import 'package:provider/provider.dart';
 
@@ -71,9 +72,8 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.normal),
           ),
         ),
-        theme: ThemeData().copyWith(
+        theme: myTheme.copyWith(
           useMaterial3: true,
-          colorScheme: kColorScheme,
           scaffoldBackgroundColor: Colors.white,
           splashColor: Colors.transparent,
           highlightColor: Colors.transparent,
