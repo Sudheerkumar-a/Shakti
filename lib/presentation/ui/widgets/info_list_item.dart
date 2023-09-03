@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shakti/domain/entities/info_entity.dart';
+import 'package:shakti/presentation/ui/widgets/outside_police_help.dart';
 
 class InfoListItem extends StatefulWidget {
   final InfoEntity data;
@@ -63,25 +64,29 @@ class _InfoListItemSate extends State<InfoListItem> {
           ),
           Visibility(
             visible: isSelected,
-            child: Column(
-              children: [
-                const SizedBox(
-                  height: 15,
-                ),
-                Text(
-                  widget.data.description ?? '',
-                  style: GoogleFonts.roboto(
-                    color: const Color.fromARGB(255, 112, 112, 112),
-                    fontWeight: FontWeight.normal,
-                    fontSize: 14,
-                    height: 1.4,
+            child: ((widget.data.title ?? '').contains('Outside police help'))
+                ? Container(
+                    margin: const EdgeInsets.only(top: 15),
+                    child: const OutsidePoliceHelp())
+                : Column(
+                    children: [
+                      const SizedBox(
+                        height: 15,
+                      ),
+                      Text(
+                        widget.data.description ?? '',
+                        style: GoogleFonts.roboto(
+                          color: const Color.fromARGB(255, 112, 112, 112),
+                          fontWeight: FontWeight.normal,
+                          fontSize: 14,
+                          height: 1.4,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 15,
+                      ),
+                    ],
                   ),
-                ),
-                const SizedBox(
-                  height: 15,
-                ),
-              ],
-            ),
           ),
         ],
       ),

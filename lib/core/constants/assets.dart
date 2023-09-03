@@ -9,10 +9,9 @@ class Assets {
   static const cyberBullying = '${imagesPath}cyber-bullying.svg';
   static const profile = '${imagesPath}profile.svg';
   static const socialMediaHacking = '${imagesPath}social-media-hacking.svg';
-  static const stalking = '${imagesPath}stalking.svg';  
+  static const stalking = '${imagesPath}stalking.svg';
   static const revengePorn = '${imagesPath}revenge_porn.png';
   static const scamAndFraud = '${imagesPath}fraud.png';
-
 
   //local data
   static const dataPath = '${path}data/';
@@ -26,4 +25,5 @@ class Assets {
   static const audiosJSon = '${dataPath}audios.json';
   static const policeStationsJSon = '${dataPath}police_stations.json';
   static const mcqsJSon = '${dataPath}mcq.json';
+  static const outsidePoliceJSon = '${dataPath}outside_police_help.json';
 }
