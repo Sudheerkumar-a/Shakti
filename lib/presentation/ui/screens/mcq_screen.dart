@@ -181,28 +181,27 @@ class McqsScreen extends StatelessWidget {
                   AppBarWidget(AppBarData('PHQ-9', 'Reflect', '666',
                       'Take a step back and reflect on your higher purpose')),
                   const SizedBox(
-                    height: 42,
+                    height: 20,
                   ),
-                  Expanded(
-                    child: BlocBuilder<DataBloc, DataState>(
-                        builder: (context, state) {
-                      if (state is DataLoading) {
-                        return const Center(
-                          child: CircularProgressIndicator(),
-                        );
-                      } else if (state is McqsLoadedWithSuccess) {
-                        mcqsList = state.mcqsList;
-                        return ValueListenableBuilder(
-                            valueListenable: _questionIndex,
-                            builder: (context, value, widget) {
-                              return Column(
+                  BlocBuilder<DataBloc, DataState>(builder: (context, state) {
+                    if (state is DataLoading) {
+                      return const Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    } else if (state is McqsLoadedWithSuccess) {
+                      mcqsList = state.mcqsList;
+                      return ValueListenableBuilder(
+                          valueListenable: _questionIndex,
+                          builder: (context, value, widget) {
+                            return Expanded(
+                              child: Column(
+                                mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Container(
                                     padding: const EdgeInsets.all(20),
                                     decoration: _boxDecoration.copyWith(
                                         color: Colors.white),
                                     child: Column(
-                                      mainAxisSize: MainAxisSize.min,
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
@@ -237,7 +236,7 @@ class McqsScreen extends StatelessWidget {
                                           ],
                                         ),
                                         const SizedBox(
-                                          height: 30,
+                                          height: 15,
                                         ),
                                         ValueListenableBuilder(
                                             valueListenable: _selectedAnswer,
@@ -298,7 +297,7 @@ class McqsScreen extends StatelessWidget {
                                                     ),
                                                   ),
                                                   const SizedBox(
-                                                    height: 15,
+                                                    height: 10,
                                                   ),
                                                   InkWell(
                                                     onTap: () {
@@ -349,7 +348,7 @@ class McqsScreen extends StatelessWidget {
                                                     ),
                                                   ),
                                                   const SizedBox(
-                                                    height: 15,
+                                                    height: 10,
                                                   ),
                                                   InkWell(
                                                     onTap: () {
@@ -402,7 +401,7 @@ class McqsScreen extends StatelessWidget {
                                                     ),
                                                   ),
                                                   const SizedBox(
-                                                    height: 15,
+                                                    height: 10,
                                                   ),
                                                   InkWell(
                                                     onTap: () {
@@ -461,7 +460,7 @@ class McqsScreen extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(
-                                    height: 40,
+                                    height: 25,
                                   ),
                                   Row(
                                     children: [
@@ -537,7 +536,7 @@ class McqsScreen extends StatelessWidget {
                                   ),
                                   const Spacer(),
                                   const SizedBox(
-                                    height: 20,
+                                    height: 5,
                                   ),
                                   ValueListenableBuilder(
                                       valueListenable: _selectedAnswer,
@@ -579,26 +578,26 @@ class McqsScreen extends StatelessWidget {
                                         );
                                       }),
                                   const SizedBox(
-                                    height: 30,
+                                    height: 10,
                                   ),
                                 ],
-                              );
-                            });
-                      } else if (state is DataLoadedWithError) {
-                        return Center(
-                          child: Text(
-                            state.message,
-                            style: const TextStyle(
-                              color: Colors.black,
-                            ),
+                              ),
+                            );
+                          });
+                    } else if (state is DataLoadedWithError) {
+                      return Center(
+                        child: Text(
+                          state.message,
+                          style: const TextStyle(
+                            color: Colors.black,
                           ),
-                        );
-                      }
-                      return const Center(
-                        child: CircularProgressIndicator(),
+                        ),
                       );
-                    }),
-                  ),
+                    }
+                    return const Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }),
                 ],
               ),
             ),

@@ -56,9 +56,12 @@ class _InfoListItemSate extends State<InfoListItem> {
                     ),
                   ),
                 ),
-                Icon(isSelected
-                    ? Icons.keyboard_arrow_up_outlined
-                    : Icons.keyboard_arrow_down_outlined)
+                Icon(
+                  isSelected
+                      ? Icons.keyboard_arrow_up_outlined
+                      : Icons.keyboard_arrow_down_outlined,
+                  color: Colors.black,
+                )
               ],
             ),
           ),

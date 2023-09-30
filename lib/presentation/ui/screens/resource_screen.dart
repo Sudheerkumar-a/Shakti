@@ -22,193 +22,213 @@ class ResourceScreen extends StatelessWidget {
           const SizedBox(
             height: 42,
           ),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context, rootNavigator: false).pushNamed(
-                  InfoListScreen.route,
-                  arguments: Assets.cyberbullyingJSon);
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
                 children: [
-                  Text(
-                    'CYBERBULLYING',
-                    style: GoogleFonts.roboto(
-                        color: const Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context, rootNavigator: false).pushNamed(
+                          InfoListScreen.route,
+                          arguments: Assets.cyberbullyingJSon);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 15),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'CYBERBULLYING',
+                            style: GoogleFonts.roboto(
+                                color: const Color.fromARGB(255, 0, 0, 0),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          SvgPicture.asset(
+                            Assets.cyberBullying,
+                            width: FORTY.toDouble(),
+                            height: FORTY.toDouble(),
+                            fit: BoxFit.fill,
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
-                  SvgPicture.asset(
-                    Assets.cyberBullying,
-                    width: FORTY.toDouble(),
-                    height: FORTY.toDouble(),
-                    fit: BoxFit.fill,
+                  const SizedBox(
+                    height: 20,
                   ),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context, rootNavigator: false).pushNamed(
-                  InfoListScreen.route,
-                  arguments: Assets.socialMediaHackingJSon);
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'SOCIAL MEDIA HACKING',
-                    style: GoogleFonts.roboto(
-                        color: const Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context, rootNavigator: false).pushNamed(
+                          InfoListScreen.route,
+                          arguments: Assets.socialMediaHackingJSon);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 15),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'SOCIAL MEDIA HACKING',
+                            style: GoogleFonts.roboto(
+                                color: const Color.fromARGB(255, 0, 0, 0),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          SvgPicture.asset(
+                            Assets.socialMediaHacking,
+                            width: FORTY.toDouble(),
+                            height: FORTY.toDouble(),
+                            fit: BoxFit.fill,
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
-                  SvgPicture.asset(
-                    Assets.socialMediaHacking,
-                    width: FORTY.toDouble(),
-                    height: FORTY.toDouble(),
-                    fit: BoxFit.fill,
+                  const SizedBox(
+                    height: 20,
                   ),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context, rootNavigator: false).pushNamed(
-                  InfoListScreen.route,
-                  arguments: Assets.backmailJSon);
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'BLACKMAIL',
-                    style: GoogleFonts.roboto(
-                        color: const Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context, rootNavigator: false).pushNamed(
+                          InfoListScreen.route,
+                          arguments: Assets.backmailJSon);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 15),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'BLACKMAIL',
+                            style: GoogleFonts.roboto(
+                                color: const Color.fromARGB(255, 0, 0, 0),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          SvgPicture.asset(
+                            Assets.blackMail,
+                            width: FORTY.toDouble(),
+                            height: FORTY.toDouble(),
+                            fit: BoxFit.fill,
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
-                  SvgPicture.asset(
-                    Assets.blackMail,
-                    width: FORTY.toDouble(),
-                    height: FORTY.toDouble(),
-                    fit: BoxFit.fill,
+                  const SizedBox(
+                    height: 20,
                   ),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context, rootNavigator: false).pushNamed(
-                  InfoListScreen.route,
-                  arguments: Assets.stalkingJSon);
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'STALKING',
-                    style: GoogleFonts.roboto(
-                        color: const Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context, rootNavigator: false).pushNamed(
+                          InfoListScreen.route,
+                          arguments: Assets.stalkingJSon);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 15),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'STALKING',
+                            style: GoogleFonts.roboto(
+                                color: const Color.fromARGB(255, 0, 0, 0),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          SvgPicture.asset(
+                            Assets.stalking,
+                            width: FORTY.toDouble(),
+                            height: FORTY.toDouble(),
+                            fit: BoxFit.fill,
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
-                  SvgPicture.asset(
-                    Assets.stalking,
-                    width: FORTY.toDouble(),
-                    height: FORTY.toDouble(),
-                    fit: BoxFit.fill,
+                  const SizedBox(
+                    height: 20,
                   ),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context, rootNavigator: false).pushNamed(
-                  InfoListScreen.route,
-                  arguments: Assets.revengePornJSon);
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'REVENGE PORN',
-                    style: GoogleFonts.roboto(
-                        color: const Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context, rootNavigator: false).pushNamed(
+                          InfoListScreen.route,
+                          arguments: Assets.revengePornJSon);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 15),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'REVENGE PORN',
+                            style: GoogleFonts.roboto(
+                                color: const Color.fromARGB(255, 0, 0, 0),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          Image.asset(Assets.revengePorn,
+                              width: FORTY.toDouble(),
+                              height: FORTY.toDouble(),
+                              fit: BoxFit.fill),
+                        ],
+                      ),
+                    ),
                   ),
-                  Image.asset(Assets.revengePorn,
-                      width: FORTY.toDouble(),
-                      height: FORTY.toDouble(),
-                      fit: BoxFit.fill),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context, rootNavigator: false).pushNamed(
-                  InfoListScreen.route,
-                  arguments: Assets.scamAndFraudJson);
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(8)),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'SCAM AND FRAUD',
-                    style: GoogleFonts.roboto(
-                        color: const Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600),
+                  const SizedBox(
+                    height: 20,
                   ),
-                  Image.asset(Assets.scamAndFraud,
-                      width: FORTY.toDouble(),
-                      height: FORTY.toDouble(),
-                      fit: BoxFit.fill),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context, rootNavigator: false).pushNamed(
+                          InfoListScreen.route,
+                          arguments: Assets.scamAndFraudJson);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 15),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'SCAM AND FRAUD',
+                            style: GoogleFonts.roboto(
+                                color: const Color.fromARGB(255, 0, 0, 0),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          Image.asset(Assets.scamAndFraud,
+                              width: FORTY.toDouble(),
+                              height: FORTY.toDouble(),
+                              fit: BoxFit.fill),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
